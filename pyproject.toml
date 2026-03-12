@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tETHer"
+version = "0.1.0"
+description = "Ethernet tethering for Linux - NAT a single device through an interface"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["networking", "nat", "tethering", "ethernet", "iptables"]
+
+[project.scripts]
+eth-tether = "tETHer.main:main"
