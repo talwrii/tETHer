@@ -1,9 +1,9 @@
 # tETHer - ethernet tethering
 Tether one device to another over an ethernet interface on linux (rather than USB)
 
-Tethering proxies one device through another devices internet connections. A common use case is to connect to a mobile phone over USB and then use its internet connection. tETHer does the same thing but via an ethernet connection such as an rj-45 cable.
+Tethering proxies one device through another devices internet connections. A common use case is to connect to a mobile phone over USB and then use its internet connection. tETHer does the same thing but via an ethernet connection such as an rj-45 cable.  This also allows forwarding
 
-This also allows forwarding
+Unreviewed ai-generated code. But I am using it.
 
 ## Motivation
 I had a camera which only supported wired connection. I did not want to run a long wire to a router and wireless bridges were moderately expensive so I decided to get this working with an old raspberry pi. I don't really like "infrastructure" because I forget how it works. I prefer tools which minimise the amount of infrastructure so I coded this.
