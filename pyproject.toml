@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tether"
-version = "1.0.0"
+version = "1.1.0"
 description = "Ethernet tethering for Linux - NAT a single device through an interface"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -15,3 +15,6 @@ text = "MIT"
 
 [project.scripts]
 eth-tether = "tETHer.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = [ "tETHer",]
