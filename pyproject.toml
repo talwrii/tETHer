@@ -3,8 +3,8 @@ requires = [ "hatchling",]
 build-backend = "hatchling.build"
 
 [project]
-name = "tether"
-version = "1.1.0"
+name = "t-eth-er"
+version = "1.2.0"
 description = "Ethernet tethering for Linux - NAT a single device through an interface"
 readme = "README.md"
 requires-python = ">=3.8"
