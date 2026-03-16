@@ -16,7 +16,7 @@ This is very similar to the idea of setting up an *access point*, but it has som
 ## Installation
 tETHer requires `nmap` `dnsmasq` and Linux. On a linux machine install them: `sudo apt install nmap dnsmasq` pipx.
 
-You can then install with pipx: `pipx install tETHer`
+You can then install with pipx: `pipx install t-eth-er`
 
 ## Usage
 Set up dhcp and forwarding on eth0 so that if you plug in a device which uses DHCP it will connect to you and then via you to the rest of the network - including the internet.
