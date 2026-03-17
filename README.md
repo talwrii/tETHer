@@ -9,9 +9,10 @@ Unreviewed ai-generated code. But I am using it.
 I had a camera which only supported wired connection. I did not want to run a long wire to a router and wireless bridges were moderately expensive so I decided to get this working with an old raspberry pi. I don't really like "infrastructure" because I forget how it works. I prefer tools which minimise the amount of infrastructure so I coded this.
 
 ## Alterantives and prior work
-Use a wireless bridge.  Hand code the networking yourself using wireless.
+Use a wireless bridge.  Hand code the networking yourself using wireless. RaspAP is an image for raspberry pi to set up a wireless bridge it also supports port forwarding.
 
 This is very similar to the idea of setting up an *access point*, but it has some additional features for port forwarding which are made easier if you are providing access or a single device.
+
 
 ## Installation
 tETHer requires `nmap` `dnsmasq` and Linux. On a linux machine install them: `sudo apt install nmap dnsmasq` pipx.
